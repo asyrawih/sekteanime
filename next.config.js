@@ -1,3 +1,5 @@
-module.exports =  { 
-   future : true
+module.exports = {
+  future: {
+    webpack5: true,
+  },
 }
