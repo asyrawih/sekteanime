@@ -1,8 +1,13 @@
-import Header from "../components/Header/Header"
+import Layout from "../components/layout"
+import Head from 'next/head'
 
 const Home = () => {
   return (
-    <Header />
+    <Layout>
+      <Head>
+        <title>Sektenime</title>
+      </Head>
+    </Layout>
   )
 }
 
