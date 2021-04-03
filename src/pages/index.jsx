@@ -8,7 +8,9 @@ const Home = () => {
       <Head>
         <title>Sektenime</title>
       </Head>
-      <Animes anime={"test"} />
+      <Animes anime={"Latest Update"} />
+      <Animes anime={"Latest Donghua"} />
+      <Animes anime={"Popular"} />
     </Layout>
   )
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Animes = ({ anime }) => {
 
-   const data = [1, 2, 3, 4, 5, 6]
+   const data = [1, 2, 3, 4, 5, 6, 7, 8]
 
    const images = [
       'https://i1.wp.com/sektekomik.com/wp-content/uploads/2020/08/420-341038-uuB10u6Z.jpeg?resize=165,225',
@@ -10,12 +10,16 @@ const Animes = ({ anime }) => {
       'https://i1.wp.com/sektekomik.com/wp-content/uploads/2020/02/Reverse-Villain.jpg?resize=165,225',
       'https://i1.wp.com/sektekomik.com/wp-content/uploads/2020/08/cityofh-164498-QYjvzcq9.jpg?resize=165,225',
       'https://i2.wp.com/sektekomik.com/wp-content/uploads/2020/09/118319986-249341779482618-8182078446675755930-n-014826-MEMTIgAb.jpg?resize=165,225',
-      'https://i1.wp.com/sektekomik.com/wp-content/uploads/2020/08/1jpg-smhmiddle-521025-H4TS9mFY.jpg?resize=165,225'
+      'https://i1.wp.com/sektekomik.com/wp-content/uploads/2020/08/1jpg-smhmiddle-521025-H4TS9mFY.jpg?resize=165,225',
+      'https://i0.wp.com/sektekomik.com/wp-content/uploads/2019/05/Jiuyang-Shenwang.png?resize=165,225',
+      'https://i1.wp.com/sektekomik.com/wp-content/uploads/2020/08/cityofh-164498-QYjvzcq9.jpg?resize=165,225',
+      'https://i2.wp.com/sektekomik.com/wp-content/uploads/2020/02/The-Descent-of-the-Demonic-Master.png?resize=100,130',
    ]
 
    return (
-      <section className="text-gray-400 bg-gray-900 body-font">
+      <section className="text-gray-400 bg-gray-800 rounded-lg pt-2 pb-3 body-font mb-3">
          <div className="container px-5 py-2 mx-auto">
+            <h3 className="font-bold text-lg mb-2">{anime}</h3>
             <div className="flex flex-wrap -m-4">
                {data.map((_, index) => (
                   <Card key={index} images={images[index]} />
