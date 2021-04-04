@@ -28,7 +28,7 @@ const VideoContainer = () => {
          <ReactJWPlayer
             playerId="Gacrfwjn-tnprujid"
             playerScript="https://cdn.jwplayer.com/libraries/wzfX1mmj.js"
-            playlist="https://cdn.jwplayer.com/v2/playlists/qg7ezNIV?search=testing"
+            file="http://s02.solidfilesusercontent.com/ZmM4MzVjMjExY2Y4NmNmYjRlYmFmZTRlOTRjZjhjYjVkY2Q4ZmJiOToxbFQwOFo6R0xvOVZyYWltQWxiTDN6MU9laGhWWjJ2Zjln/BVq4jw3mmW3Q5/%5BNekoPoi%5D_JK_Fuuzoku_Gakuensai_-_01_%5B720P%5D%5Bnekopoi.care%5D.mp4"
             onBeforePlay={() => console.log("onBeforePlay fired!")}
             onVideoLoad={vidoeLoaded}
          />
