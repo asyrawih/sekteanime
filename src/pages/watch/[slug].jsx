@@ -18,13 +18,19 @@ const Watch = () => {
 
 
 const VideoContainer = () => {
+
+   const vidoeLoaded = () => {
+      console.log('video loaded')
+   }
+
    return (
       <div className="w-full">
          <ReactJWPlayer
-            playerId="jw-player"
-            playerScript="https://content.jwplatform.com/libraries/jvJ1Gu3c.js"
-            playlist="https://cdn.jwplayer.com/v2/media/gaCRFWjn"
+            playerId="Gacrfwjn-tnprujid"
+            playerScript="https://cdn.jwplayer.com/libraries/wzfX1mmj.js"
+            playlist="https://cdn.jwplayer.com/v2/playlists/qg7ezNIV?search=__CONTEXTUAL__"
             onBeforePlay={() => console.log("onBeforePlay fired!")}
+            onVideoLoad={vidoeLoaded}
          />
       </div>
    )
