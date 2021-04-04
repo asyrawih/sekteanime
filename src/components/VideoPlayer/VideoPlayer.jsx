@@ -47,7 +47,7 @@ class VideoPlayer extends Component {
    render() {
       return (
          <>
-            <Player ref={player => { this.player = player }} autoHide={true} height={600} width={'100%'} fluid={false} >
+            <Player ref={player => { this.player = player }}  height={600} width={'100%'} fluid={false} >
                <source src={this.state.source} />
                <ControlBar />
                <BigPlayButton position='center' />
