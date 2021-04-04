@@ -28,7 +28,7 @@ const VideoContainer = () => {
          <ReactJWPlayer
             playerId="Gacrfwjn-tnprujid"
             playerScript="https://cdn.jwplayer.com/libraries/wzfX1mmj.js"
-            playlist="https://cdn.jwplayer.com/v2/playlists/qg7ezNIV?search=__CONTEXTUAL__"
+            playlist="https://cdn.jwplayer.com/v2/playlists/qg7ezNIV?search=testing"
             onBeforePlay={() => console.log("onBeforePlay fired!")}
             onVideoLoad={vidoeLoaded}
          />
