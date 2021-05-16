@@ -5,15 +5,15 @@ const Animes = ({ anime }) => {
    const data = [1, 2, 3, 4, 5, 6, 7, 8]
 
    const images = [
-      'https://i1.wp.com/sektekomik.com/wp-content/uploads/2020/08/420-341038-uuB10u6Z.jpeg?resize=165,225',
-      'https://i0.wp.com/sektekomik.com/wp-content/uploads/2020/02/fe710002a25021f6e34e-906807-15BNQMmy.jpg?resize=165,225',
-      'https://i1.wp.com/sektekomik.com/wp-content/uploads/2020/02/Reverse-Villain.jpg?resize=165,225',
-      'https://i1.wp.com/sektekomik.com/wp-content/uploads/2020/08/cityofh-164498-QYjvzcq9.jpg?resize=165,225',
-      'https://i2.wp.com/sektekomik.com/wp-content/uploads/2020/09/118319986-249341779482618-8182078446675755930-n-014826-MEMTIgAb.jpg?resize=165,225',
-      'https://i1.wp.com/sektekomik.com/wp-content/uploads/2020/08/1jpg-smhmiddle-521025-H4TS9mFY.jpg?resize=165,225',
-      'https://i0.wp.com/sektekomik.com/wp-content/uploads/2019/05/Jiuyang-Shenwang.png?resize=165,225',
-      'https://i1.wp.com/sektekomik.com/wp-content/uploads/2020/08/cityofh-164498-QYjvzcq9.jpg?resize=165,225',
-      'https://i2.wp.com/sektekomik.com/wp-content/uploads/2020/02/The-Descent-of-the-Demonic-Master.png?resize=100,130',
+      'https://sektekomik.com/wp-content/uploads/2020/08/420-341038-uuB10u6Z.jpeg?resize=165,225',
+      'https://sektekomik.com/wp-content/uploads/2020/02/fe710002a25021f6e34e-906807-15BNQMmy.jpg?resize=165,225',
+      'https://sektekomik.com/wp-content/uploads/2020/02/Reverse-Villain.jpg?resize=165,225',
+      'https://sektekomik.com/wp-content/uploads/2020/08/cityofh-164498-QYjvzcq9.jpg?resize=165,225',
+      'https://sektekomik.com/wp-content/uploads/2020/09/118319986-249341779482618-8182078446675755930-n-014826-MEMTIgAb.jpg?resize=165,225',
+      'https://sektekomik.com/wp-content/uploads/2020/08/1jpg-smhmiddle-521025-H4TS9mFY.jpg?resize=165,225',
+      'https://sektekomik.com/wp-content/uploads/2019/05/Jiuyang-Shenwang.png?resize=165,225',
+      'https://sektekomik.com/wp-content/uploads/2020/08/cityofh-164498-QYjvzcq9.jpg?resize=165,225',
+      'https://sektekomik.com/wp-content/uploads/2020/02/The-Descent-of-the-Demonic-Master.png?resize=100,130',
    ]
 
    return (
